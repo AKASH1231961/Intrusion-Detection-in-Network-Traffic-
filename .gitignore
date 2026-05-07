@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+*.csv
+.ipynb_checkpoints/
+KDDTest+.txt
+KDDTrain+.txt

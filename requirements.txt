@@ -1,0 +1,4 @@
+numpy==2.4.4
+nvidia-nccl-cu12==2.30.4
+scipy==1.17.1
+xgboost==3.2.0
