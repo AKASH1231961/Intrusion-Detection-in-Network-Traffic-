@@ -190,7 +190,7 @@ streamlit run app.py
 Live Application Link:
 
 ```markdown
-https://your-streamlit-app-link.streamlit.app
+https://intrusion-detection-network.streamlit.app/
 ```
 
 ---
