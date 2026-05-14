@@ -1,5 +1,6 @@
 venv/
 __pycache__/
-
+KDDTest+.txt
+KDDTrain+.txt
 .ipynb_checkpoints/
 
