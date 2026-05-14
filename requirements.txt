@@ -1,4 +1,6 @@
-numpy==2.4.4
-nvidia-nccl-cu12==2.30.4
-scipy==1.17.1
-xgboost==3.2.0
+streamlit>=1.35.0
+pandas>=2.0.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+plotly>=5.20.0

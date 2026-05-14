@@ -13,10 +13,6 @@ The project aims to improve cybersecurity monitoring by identifying suspicious n
 - Member 1 – AKASH S
 - Member 2 – EVANS
 - Member 3 – LANIYA MOHAN
-  
-
-
-
 
 ---
 
@@ -121,15 +117,15 @@ Evaluated using:
 
 | Model | Accuracy | Key Observation |
 |---|---|---|
-| Random Forest | High Accuracy | Strong performance on majority classes |
-| XGBoost | Very High Accuracy | Best overall classification performance |
-| MLP Classifier | Good Accuracy | Captured nonlinear attack patterns |
+| Random Forest | 75.37% | Strong DoS and Normal detection; poor R2L/U2R recall due to class imbalance |
+| XGBoost | 76.45% | Best overall classification performance |
+| MLP Classifier | 73.03% | Captured nonlinear attack patterns; weakest on minority classes |
 
 ## Key Findings
 - Feature engineering significantly improved model performance.
 - Ensemble models performed better than basic classifiers.
 - Service-related features were highly informative.
-- Class imbalance affected minority attack detection.
+- Class imbalance affected minority attack detection (R2L and U2R near-zero recall).
 
 ---
 
@@ -153,12 +149,12 @@ Example:
 
 ## Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/AKASH1231961/Intrusion-Detection-in-Network-Traffic-.git
 ```
 
 ## Navigate to Project Directory
 ```bash
-cd your-repository-name
+cd Intrusion-Detection-in-Network-Traffic-
 ```
 
 ## Install Dependencies
@@ -187,11 +183,7 @@ streamlit run app.py
 
 # 🚀 Streamlit Deployment
 
-Live Application Link:
-
-```markdown
-https://your-streamlit-app-link.streamlit.app
-```
+Live Application: [https://intrusion-detection-network.streamlit.app/](https://intrusion-detection-network.streamlit.app/)
 
 ---
 
