@@ -204,5 +204,11 @@ Live Application: [https://intrusion-detection-network.streamlit.app/](https://i
 
 ---
 
+#APP URL
+https://akash1231961-intrusion-detection-in-network-traffic--app-ta8yd7.streamlit.app/
+
+
+---
+
 # ⭐ Conclusion
 This project demonstrates how Machine Learning can be effectively applied for network intrusion detection. By combining data preprocessing, feature engineering, and advanced classification models, the system can accurately identify malicious network activities and contribute to improved cybersecurity monitoring.
